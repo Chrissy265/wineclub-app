@@ -1,32 +1,26 @@
 <!-- Form for users to submit to recieve the latest wine collection updates--> 
-<form>
-  <div class="row mb-3">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+<div class="container-md">
+<div class="card">
+  <div class=" card-body">
+  <form style ="width: 650px; align-content: center;">
+    <div class="mb-2">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    <div class="mb-2">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
-  </div> 
-
-
-    <div class ="row mb-3">
-     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3">
-      </div> 
+    <div class="mb-2 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-
-    <div class="row mb-3">
-      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3">
-      </div>
-    </div>
-   
-  
-    <button type="submit" class="btn btn-primary">Sign in</button>
- </form>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</div>
+</div>
 
 
 
