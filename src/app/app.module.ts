@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module'; 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
@@ -17,6 +17,9 @@ import { RedWineCardComponent } from './red-wine-card/red-wine-card.component';
 import { WhiteWineCardComponent } from './white-wine-card/white-wine-card.component';
 import { DessertWineCardComponent } from './dessert-wine-card/dessert-wine-card.component';
 import { WineFormComponent } from './wine-form/wine-form.component';
+import { ContactusComponent } from './contactus/contactus.component'; 
+import { ContactusPageComponent } from './contactus-page/contactus-page.component';  
+
 
 @NgModule({
   declarations: [
@@ -33,7 +36,9 @@ import { WineFormComponent } from './wine-form/wine-form.component';
     RedWineCardComponent,
     WhiteWineCardComponent,
     DessertWineCardComponent,
-    WineFormComponent
+    WineFormComponent,
+    ContactusComponent, 
+    ContactusPageComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +46,6 @@ import { WineFormComponent } from './wine-form/wine-form.component';
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] 
 })
 export class AppModule { }
